@@ -25,6 +25,8 @@ hint = """
 The declaration on line 8 is missing a keyword that is needed in Rust
 to create a new variable binding."""
 
+mygo
+
 [[exercises]]
 name = "variables2"
 path = "exercises/variables/variables2.rs"
@@ -38,6 +40,9 @@ What if you do both?
 What type should x be, anyway?
 What if x is the same type as 10? What if it's a different type?"""
 
+mygo
+
+
 [[exercises]]
 name = "variables3"
 path = "exercises/variables/variables3.rs"
@@ -49,6 +54,9 @@ value. We can't print out something that isn't there; try giving x a value!
 This is an error that can cause bugs that's very easy to make in any
 programming language -- thankfully the Rust compiler has caught this for us!"""
 
+mygo
+
+
 [[exercises]]
 name = "variables4"
 path = "exercises/variables/variables4.rs"
@@ -57,6 +65,8 @@ hint = """
 In Rust, variable bindings are immutable by default. But here we're trying
 to reassign a different value to x! There's a keyword we can use to make
 a variable binding mutable instead."""
+
+mygo
 
 [[exercises]]
 name = "variables5"
@@ -73,6 +83,8 @@ You can read more about 'Shadowing' in the book's section 'Variables and Mutabil
 https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html#shadowing
 Try to solve this exercise afterwards using this technique."""
 
+mygo
+
 [[exercises]]
 name = "variables6"
 path = "exercises/variables/variables6.rs"
@@ -88,6 +100,8 @@ Read more about constants and the differences between variables and constants un
 https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html#constants
 """
 
+
+mygo
 # FUNCTIONS
 
 [[exercises]]
@@ -99,6 +113,8 @@ This main function is calling a function that it expects to exist, but the
 function doesn't exist. It expects this function to have the name `call_me`.
 It expects this function to not take any arguments and not return a value.
 Sounds a lot like `main`, doesn't it?"""
+
+mygo
 
 [[exercises]]
 name = "functions2"
