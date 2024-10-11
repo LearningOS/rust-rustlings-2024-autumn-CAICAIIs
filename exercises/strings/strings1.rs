@@ -12,4 +12,6 @@ fn main() {
 
 fn current_favorite_color() -> String {
     String::from("blue")
+
+    
 }
